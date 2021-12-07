@@ -1,0 +1,230 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+body
+{
+    background-color: dimgrey;
+    display: flex;
+    justify-content: center;
+}
+
+header, main, aside, footer
+{
+    background-color: #DCDCDC;
+    padding: 10px;
+}
+
+header
+{
+    margin-bottom: 10px;
+    flex: 0 0 60px;
+}
+
+main
+{
+    margin-right: 10px;
+    flex: 4 0 0px;
+}
+
+aside
+{
+    flex: 1 0 0px;
+}
+
+footer
+{
+    margin-top: 10px;
+    flex: 0 0 30px;
+}
+
+.content
+{
+    display: flex;
+    flex: 1 0 0px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex: 0 1 1366px;
+
+}
+
+.navigation
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.navigation li
+{
+    list-style-type: none;
+    background-color: lightgray;
+
+    padding: 8px;
+    margin: 3px;
+    font-size: 1.4em;
+    text-align: center;
+
+    flex: 0 0 200px;
+}
+
+.navigation li a
+{
+    color: navy;
+}
+
+
+.burger-button
+{
+    display: none;
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: navy;
+}
+
+h4{
+    font-size: 18px;
+
+}
+
+h5{
+    font-size: 70px;
+    color: blue;
+}
+
+p{
+    font-size: 20px;
+}
+  p1{
+      color: #00528c;
+      font-size: 25px;
+      margin-bottom: 20px;
+      font-weight: 700;
+  }
+.marken{
+    height: 110px;
+    width: 165px;
+}
+
+.img2{
+    width: 400px;
+    height: 250px;
+}
+
+.text{
+    font-size: 20px;
+}
+p3{
+    text-align: center;
+    margin-left: 50px;
+}p4{
+     text-align: left;
+     margin-left: 50px;
+ }
+
+@media screen and (max-width: 1366px)
+{
+    /*faktor: 1,6*/
+    h1
+    {
+        font-size: 30px;
+    }
+
+    .navigation{
+        font-size: 15px;
+    }
+
+    .navigation li
+    {
+        flex: 0 0 150px;
+    }
+
+    main
+    {
+        flex: 3 0 0px;
+    }
+
+    .img2{
+        width: 200px;
+        height: 125px;
+    }
+
+    .marken{
+        height: 69px;
+        width: 103px;
+    }
+
+    .haupteingang{
+        height: 287px;
+        width: 531px;
+    }
+
+    .map{
+        width: 937px;
+        height: 285px;
+    }
+
+}
+
+@media screen and (max-width: 768px)
+{
+    /*faktor: 2.1*/
+    h1
+    {
+        font-size: 20px;
+    }
+
+    .content
+    {
+        flex-direction: column;
+    }
+
+    main
+    {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+
+    .navigation
+    {
+        display: none;
+    }
+
+    .img2{
+        width: 170px;
+        height: 120px;
+    }
+
+    .marken{
+        width: 69px;
+        height: 103px;
+    }
+
+    .haupteingang{
+        height: 219px;
+        width: 405px;
+    }
+
+    .map{
+        width: 700px;
+        height: 218px;
+    }
+
+}
+
