@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LottotipsClientFX1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/LottotipsClientFX.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -21,10 +21,7 @@ public class MyServer {
             while (true) {
                 try {
                     new Thread(new MyRunable(s.accept())).start();
-                    
-                    
-                    
-                    
+
                 } catch (IOException e) {
                     throw new RuntimeException("ERROR: unable to instantiate reader and writer", e);
                 }

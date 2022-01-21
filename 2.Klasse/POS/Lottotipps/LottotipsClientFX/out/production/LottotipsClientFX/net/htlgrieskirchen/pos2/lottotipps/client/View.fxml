@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="412.0" prefWidth="331.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.htlgrieskirchen.pos2.lottotipps.client.Controller">
+   <children>
+      <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Datei">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleMenuItemLoad" text="Laden" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleMenuItemSave" text="Speichern" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleMenuItemQuit" text="Schließen" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="25.0" layoutY="61.0" text="Serveradresse" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="50.0" />
+      <Label layoutX="25.0" layoutY="104.0" text="Tippanzahl" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="90.0" />
+      <TextField fx:id="textFieldAddress" layoutX="113.0" layoutY="66.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="45.0" />
+      <ComboBox fx:id="comboBoxNumberOfTips" layoutX="120.0" layoutY="86.0" onAction="#handleComboBoxAction" prefWidth="150.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="85.0" />
+      <ListView fx:id="listViewTips" layoutX="37.0" layoutY="130.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="140.0" />
+   </children>
+</AnchorPane>
