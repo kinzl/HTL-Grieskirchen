@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GolfServer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/GolfServer/dist/GolfServer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

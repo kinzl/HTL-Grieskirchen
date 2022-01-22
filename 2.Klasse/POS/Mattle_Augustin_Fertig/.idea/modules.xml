@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GolfServer/GolfServer.iml" filepath="$PROJECT_DIR$/GolfServer/GolfServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Mattle_Augustin_Fertig.iml" filepath="$PROJECT_DIR$/.idea/Mattle_Augustin_Fertig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projekt_Mattle_Augustin/Projekt_Mattle_Augustin.iml" filepath="$PROJECT_DIR$/Projekt_Mattle_Augustin/Projekt_Mattle_Augustin.iml" />
+    </modules>
+  </component>
+</project>
