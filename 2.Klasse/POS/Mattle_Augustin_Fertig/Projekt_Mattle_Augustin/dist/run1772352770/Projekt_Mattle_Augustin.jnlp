@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Projekt_Mattle_Augustin.jnlp">
+  <information>
+    <title>Projekt_Mattle_Augustin</title>
+    <vendor>bmattle19</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Projekt_Mattle_Augustin.jar" size="30381" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="projekt_mattle_augustin.Projekt_Mattle_Augustin"  name="Projekt_Mattle_Augustin" />
+  <update check="always"/>
+</jnlp>

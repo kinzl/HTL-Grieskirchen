@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="471.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="projekt_mattle_augustin.TurnierturnierController">
+   <children>
+      <Label layoutX="238.0" layoutY="36.0" prefHeight="34.0" prefWidth="124.0" text="Turnier:">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="102.0" text="Loch 1:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="192.0" text="Loch 4:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="162.0" text="Loch 3:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="129.0" text="Loch 2:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="227.0" text="Loch 5:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="314.0" text="Loch 8:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="283.0" text="Loch 7:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="352.0" text="Loch 9:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="254.0" text="Loch 6:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="102.0" text="Loch 10:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="192.0" text="Loch 13:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="162.0" text="Loch 12:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="129.0" text="Loch 11:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="227.0" text="Loch 14:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="314.0" text="Loch 17:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="283.0" text="Loch 16:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="352.0" text="Loch 18:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="254.0" text="Loch 15:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loch1" layoutX="135.0" layoutY="103.0" />
+      <TextField fx:id="loch2" layoutX="135.0" layoutY="130.0" />
+      <TextField fx:id="loch3" layoutX="135.0" layoutY="163.0" />
+      <TextField fx:id="loch4" layoutX="135.0" layoutY="193.0" />
+      <TextField fx:id="loch5" layoutX="135.0" layoutY="228.0" />
+      <TextField fx:id="loch6" layoutX="135.0" layoutY="255.0" />
+      <TextField fx:id="loch7" layoutX="135.0" layoutY="284.0" />
+      <TextField fx:id="loch8" layoutX="135.0" layoutY="315.0" />
+      <TextField fx:id="loch9" layoutX="135.0" layoutY="353.0" />
+      <TextField fx:id="loch10" layoutX="395.0" layoutY="103.0" />
+      <TextField fx:id="loch11" layoutX="395.0" layoutY="130.0" />
+      <TextField fx:id="loch12" layoutX="395.0" layoutY="163.0" />
+      <TextField fx:id="loch13" layoutX="395.0" layoutY="193.0" />
+      <TextField fx:id="loch14" layoutX="395.0" layoutY="228.0" />
+      <TextField fx:id="loch15" layoutX="395.0" layoutY="255.0" />
+      <TextField fx:id="loch16" layoutX="395.0" layoutY="284.0" />
+      <TextField fx:id="loch17" layoutX="395.0" layoutY="315.0" />
+      <TextField fx:id="loch18" layoutX="395.0" layoutY="353.0" />
+      <Button layoutX="76.0" layoutY="405.0" mnemonicParsing="false" onAction="#berechnenAktion" prefHeight="34.0" prefWidth="100.0" text="Berechnen" />
+      <Label fx:id="ergebniss" layoutX="207.0" layoutY="405.0" prefHeight="34.0" prefWidth="226.0" />
+      <Button layoutX="444.0" layoutY="405.0" mnemonicParsing="false" onAction="#backAktion" prefHeight="34.0" prefWidth="100.0" text="Zurück!" />
+   </children>
+</AnchorPane>
